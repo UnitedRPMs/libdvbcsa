@@ -7,7 +7,7 @@ Group:          System Environment/Libraries
 License:        GPLv2+
 URL:            http://www.videolan.org/developers/libdvbcsa.html
 Source0:        http://download.videolan.org/pub/videolan/libdvbcsa/%{version}/libdvbcsa-%{version}.tar.gz
-
+BuildRequires:  gcc-c++
 
 %description
 libdvbcsa is a free and portable implementation of the DVB Common
